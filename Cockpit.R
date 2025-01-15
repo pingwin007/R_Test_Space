@@ -14,8 +14,12 @@ main=function(){
   
   paste0("lucky number ", toString(lucky_numbers))
   
+  starting_vector <- c(2,4,5)
+  
   
 }
 
 
 main()
+
+# git log --oneline
