@@ -1,11 +1,18 @@
+library("usethis")
+library("gitcreds")
+
+
+generate_numbers = function(n) {
+  sample(1:100, n)
+}
 
 main=function(){
   
   #browser()
   
-  my_number <- sample(1:100,1)
+  lucky_numbers <- generate_numbers(5)
   
-  paste0("lucky number ", my_number)
+  paste0("lucky number ", toString(lucky_numbers))
   
   
 }
